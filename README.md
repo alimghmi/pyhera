@@ -75,5 +75,3 @@ print(sum) # 6
 ```
 ## Documentation
 > Documentation of pyhera project will be released as soon as possible. 
-
-#### Developed by [Ali Moghimi](http://lstil.ml)
