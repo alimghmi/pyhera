@@ -18,7 +18,7 @@
 pip install pyhera
 ```
 
-## Code samples
+## Quick start
 A very basic instance:
 ```python
 import pyhera # Import pyhera module
@@ -30,6 +30,18 @@ result = h.get('foo')
 
 print(result) # Print 'bar'
 ```
+To use it in temp mode:
+```python
+import pyhera
+
+t = pyhera.Pool('mydb', temp=True) # Create temp database object
+
+h.lmls('foo', [1, 2, 3]) # Won't be saved in database file
+result = h.lret('foo') # Only stored in memory
+
+print(result) # Print '[1, 2, 3]'
+```
+## Code samples
 To compare X and pyhera:
 ```python
 #X (a key-value series database)
