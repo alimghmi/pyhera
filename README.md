@@ -1,4 +1,5 @@
 # pyhera
+![banner](https://github.com/lstil/pyhera/raw/master/banner.jpg)
 ## Introduction
 >**pyhera** is a lightweight in-memory database management module written in python. An optimized NoSQL database which is fast. Data are stored in JSON format (key-value) thus created databases can be analyzed by other applications in different platforms.
 
