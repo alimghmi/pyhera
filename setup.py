@@ -7,8 +7,7 @@ setup(
   description = 'Hera is an optimized in-memory database', 
   author = 'Ali Moghimi', 
   author_email = 'thisisjavid@gmail.com',
-  url = 'https://github.com/lastill/Hera',
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz', 
+  url = 'https://github.com/lastill/Hera', 
   keywords = ['dbms', 'database', 'nosql', 'hera', 'heradb', 'pyhera'], 
   classifiers=[
     'Development Status :: 4 - Beta',      # "3 - Alpha" | "4 - Beta" | "5 - Production/Stable"
