@@ -5,9 +5,10 @@ import hashlib
 from re import match
 from time import sleep
 
-class pyhera(object):
 
-    def __init__(self, name, temp, one_process):
+class Pool(object):
+
+    def __init__(self, name, temp=False, one_process=False):
         if not isinstance(name, str):
             self.__err__(str)
 
@@ -977,6 +978,3 @@ class pyhera(object):
             return True
         else:
             return False
-
-def Pool(name, temp=False, one_process=False):
-    return pyhera(name, temp, one_process)
