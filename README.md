@@ -1,5 +1,6 @@
 ![banner](https://github.com/lstil/pyhera/raw/master/banner.jpg)
 
+![license](https://img.shields.io/github/license/lstil/pyhera) ![issues](https://img.shields.io/github/issues/lstil/pyhera)
 # pyhera
 
 ## Introduction
