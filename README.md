@@ -11,7 +11,6 @@
 * Fast because of **multithreading implementation**
 * It's secure. **Database is not modifiable from outside** 
 * Reliable. **pyhera automatically takes back-up**
-* Capable of **handling data in any scale** (As long as the hardware allows)
 
 ## Easy Installition
 ```
